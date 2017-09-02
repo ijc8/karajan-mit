@@ -13,6 +13,6 @@ Ian C., Lisa K., Josie T., Alice
 
 How can I use this?
 ===
-- Install [pygame](https://www.pygame.org/) and [music21](http://web.mit.edu/music21/).
+- Install [pygame](https://www.pygame.org/) and [music21](http://web.mit.edu/music21/) (version 3.1.0).
 - Get a score in MusicXML format from somewhere. The [MuseScore site](https://musescore.com) is a good resource.
 - Run like `python visual.py sonata.xml 124 -0.5`. The second arg is the tempo (in bpm); the third is an offset (in seconds) that you'll probably need to tweak to sync the visuals with the audio. (This invocation works well for [this score](https://musescore.com/user/7075436/scores/2297561).)
